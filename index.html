@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business Card</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/wonder-boy-in-monster-world" rel="stylesheet">
+                
+</head>
+<body>
+    <div id="main">
+        <h1>BobRedHead</h1>
+        <h2>Hi, I'm an aspiring programmer!</h2>
+        <p>I am currently learning JS and website layout.</p>
+        <p>But I'm more into exploring indie projects and pixels</p>
+        <p>You can contact me by clicking on the links below</p>
+        <div class="image-row">
+            <div class="image-container">
+                <a href="https://web.telegram.org/k/"><img src="cedy.jpg" alt=""></a>
+                <div class="text-content">
+                    <a href="#" class="link">Telegram</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <a href="https://store.steampowered.com/?l=russian"> <img src="planeta.jpg" alt=""></a>
+                <div class="text-content">
+                    <a href="#" class="link">Steam</a>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <a href="https://github.com/BobRedHead"><img src="litco.jpg" alt=""></a>
+                <div class="text-content">
+                    <a href="#" class="link">Github</a>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <a href="https://bobredhead.itch.io/"><img src="luna.jpg" alt=""></a>
+                <div class="text-content">
+                    <a href="#" class="link">Itch</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <a href="https://vk.com/kpan387"><img src="shina.jpg" alt=""></a> 
+                <div class="text-content">
+                    <a href="#" class="link">VK</a>
+                
+            
+            </div>
+            <div class align="center">
+                <audio src="musika.mp3" id="audio"></audio>
+                
+                <button type="button" class="buttonSwagee" onclick="soundClick()">Click here and the music will play!</button>
+              </div>
+
+    </div>
+
+    <script src="three.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+        const link = document.querySelector('.link');
+
+        link.addEventListener('mouseover', () => {
+            document.body.style.color = '#0f0';
+        });
+
+        link.addEventListener('mouseout', () => {
+            document.body.style.color = '#333';
+        });
+    </script>
+
+    <script type="text/javascript">
+    function soundClick() {
+    var audio = document.getElementById('audio');
+      audio.play();
+  }
+     </script>
+
+</body>
+</html>

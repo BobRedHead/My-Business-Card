@@ -1,0 +1,66 @@
+html{
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+                                                
+
+}
+body {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#main {
+    height: 1000px;
+    padding-top: 50px;
+}
+h1 {
+    color: #003f34;
+    text-align: center;
+
+}
+h2 {
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+p {
+    color: #ccff00;
+    margin-top: 0;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-container {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.link {
+    color: #0f79a7;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(192, 13, 13);
+}
+.center {
+    text-align: left;
+}
